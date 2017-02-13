@@ -1,0 +1,71 @@
+html, body {
+		height: 100%;
+}
+.page_wrapper {
+	margin: auto;
+	width: 1000px;
+	height: 100%;
+	border: 1px solid;
+}
+.slogan_wrapper {
+	margin: 30px auto;
+}
+.google-char {
+	height: 130px;
+	width: 130px;
+	float: left;
+	margin-left: 30px;
+	text-align: center;
+	font-size: 5em;
+	line-height: 130px;
+	font-family: monospace;
+	color: white;
+}
+.bg-blue {
+	background-color: #176cee;
+}
+.bg-red {
+	background-color: #d33f2a;
+}
+.bg-yellow {
+	background-color: #ffb603;
+}
+.bg-green {
+	background-color: #02a15d;
+}
+.content_wrapper {
+	margin: 75px auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.left-float {
+	float: left;
+	width: 55%;
+	font-family: arial;
+	color: white;
+}
+.right-float {
+	float: right;
+	height: 130px;
+	width: 40%;
+}
+.image {
+	height: 100px;
+	width: 100px;
+	border: 1px solid;
+	margin: 0px 10px 10px 0px;
+	background: url("../images/img1.png") no-repeat 0 0;
+	background-size: contain;
+	float: left;
+}
+p {
+	margin: 10px;
+}
+.blue_box {
+	height: 130px;
+	width: 30%;
+	margin: 100px auto;
+}		
+.clear {
+	clear: both;
+}

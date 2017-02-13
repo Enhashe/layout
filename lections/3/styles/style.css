@@ -1,0 +1,18 @@
+.big {
+	font-size: 40px;
+	text-decoration: overline;
+	height: 30px;
+	width: 30px;
+	background-color: red;
+}
+#yellow {
+	color: #ff0;
+}
+.red {
+	color: green;
+	font-family: Arial;
+	text-decoration: underline;
+	line-height: 40px;
+}
+
+
