@@ -1,0 +1,87 @@
+.box-1, .box-2, .box-3, .box4, .red-box { border: 1px solid; }
+.box-1 {
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	z-index: 1;
+}
+.box-2 {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	top: 100px;
+	width: 400px;
+	height: 400px;
+/*	top: 20px;
+	left: 20px;*/
+	background-color: green;
+	z-index: 3
+}
+.box-3 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50px;
+	z-index: 9999;
+/*	top: 10px;
+	left: 10px;*/
+	background-color: blue;
+}
+.box-4 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	right: 250px;
+	z-index: 2;
+/*	top: 10px;
+	left: 10px;*/
+	background-color: yellow;
+}
+.red-box {
+	width: 500px;
+	height: 500px;
+	background-color: red;
+}
+/*.red-box:after {
+	content: '\25C0';
+}*/
+.container, .container2 {
+	position: relative;
+	border: 1px solid;
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+.center-box {
+	display: inline-block;
+	height: 400px;
+	width: 300px;
+	background-color: blue;
+}
+.container::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	width: 0px;
+}
+.container2::before {
+	position: absolute;
+	content: '';
+	bottom: -15px;
+	text-align: center;
+	height: 16px;
+	width: 32px;
+	background: url("../img/imgpsh_fullsize.png") 0 0 no-repeat;
+}
+.red-box {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	background-color: red;
+}
+.center-box, .red-box { vertical-align: middle; }
