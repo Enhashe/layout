@@ -1,0 +1,48 @@
+h3 {
+	margin: 10px 0px;
+}
+p{
+	margin: 10px 0px;
+}
+.container {
+	box-sizing: border-box;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 20px 50px;
+	padding-bottom: 0px;
+	background: url(../img/background.png) 0 0 repeat;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+.news-column {
+	box-sizing: border-box;
+	width: 450px;
+	padding: 0px 15px 15px 10px;
+	border: 1px solid red;
+	text-align: left;
+}
+.left-block {
+	float: left;
+}
+.right-block {
+	float: right;
+}
+.news-block {
+	margin-bottom: 30px;
+}
+.news-image {
+	float: left;
+	margin: 0px 5px 5px 0px;
+}
+.read {
+	float: right;
+	font-size: 14px;
+}
+.end {
+	margin: 0px auto;
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+.close {
+	clear: both;
+}
