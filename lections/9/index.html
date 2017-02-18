@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lesson 9</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<nav class="menu">
+			<ul class="menu">
+				<li>
+					<a href="#!">Главная</a>
+				</li>
+				<li class="menu-item">
+					<a href="#!">Товары</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="#!">Ноутбуки</a>
+						</li>
+						<li class="sub-menu-item">
+							<a href="#!">Мониторы</a>
+							<ul class="sub-sub-menu">
+								<li><a href="#!">19"</a></li>
+								<li><a href="#!">21"</a></li>
+								<li><a href="#!">24"</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#!">Мыши</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#!">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="box">
+			<div class="boxIn"></div>
+		</div>
+		<form action="" method="GET">
+			<label>
+				<span>Login:</span>
+				<input type="text" name="loginField" id="name" placeholder="john@example.com" value="12321">
+			</label>
+			
+			<p>Пол</p>
+			<label>
+				<span>M</span>
+				<input type="radio" name="sexField" id="male">
+			</label>
+			<label>
+				<span>F</span>
+				<input type="radio" name="sexField" id="female">
+			</label>
+			<p>
+				<label>	
+					<input class="check" type="checkbox" name="" checked="">
+					<span>Checkbox</span>
+				</label>
+			</p>
+			<p>
+				<label>	
+					<input class="check2" type="checkbox" name="" checked>
+					<img class="off" src="img/1.png">
+					<img class="on" src="img/2.png">
+					<span>Checkbox2</span>
+				</label>
+			</p>
+			<p>
+				<label>
+					<span>Password</span>
+					<input type="password" name="" placeholder="type your password">
+				</label>
+			</p>
+			<p>
+				<label>
+					<span>textarea</span>
+					<textarea class="textarea"></textarea>
+				</label>
+			</p>
+			<p>
+				<label>
+					<span>select</span>
+					<select class="select">
+						<option>1</option>
+						<option>2</option>
+						<option selected="">3</option>
+						<option disabled="">4</option>
+					</select>
+				</label>
+			</p>
+			<input type="submit" name="" value="Send">
+			<button type="submit">Yo</button>
+		</form>
+	</body>
+</html>

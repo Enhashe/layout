@@ -1,0 +1,83 @@
+.textarea {
+	width: 150px;
+	height: 50px;
+	padding: 10px;
+	resize: none;
+	/*outline: none;*/
+	border-radius: 300px;
+	text-align: center;
+	box-shadow: 5px 5px 5px grey;
+}
+.select {
+
+}
+.on, .off {
+	height: 10px;
+	width: 10px;
+}
+.check2 {
+	display: none;
+}
+.on {
+	display: none;
+}
+.check2:checked ~ .on {
+	display: inline-block;
+}
+.check2:checked ~ .off {
+	display: none;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+.box:hover .boxIn {
+	background-color: red;
+	border-radius: 100%;
+	display: none;
+}
+.box:hover {
+	background-color: red;
+	border-radius: 100%;
+}
+.boxIn {
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+    list-style-type: none;
+    border: 1px solid;
+}
+.menu{
+	position: relative;
+	width: 70px;
+}
+.sub-menu {
+	display: none;
+}
+.sub-sub-menu {
+	display: none;
+}
+.menu-item:hover .sub-menu {
+	display: block;
+	position: absolute;
+	left: 70px;
+	top: 19px;
+}
+.sub-menu-item:hover .sub-sub-menu {
+	display: block;
+	position: absolute;
+	padding: 0;
+	left: 75px;
+	top: 19px;
+}
+
+/*.menu {
+	display: list-item;
+}*/
