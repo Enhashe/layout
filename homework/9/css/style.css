@@ -1,0 +1,6 @@
+.container {
+	height: 
+	width: 100%;
+	background: url(../img/mountain.jpg) 0 0 no-repeat;
+	background-size: contain;
+}
