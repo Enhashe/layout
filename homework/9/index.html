@@ -21,24 +21,43 @@
 				<p><b>Горная система: <span class="white-text">Пинд</span></b></p>
 
 				<p><b>Высота вершины: <span class="white-text">2457 м</span></b></p>
-				<div class="about-button white-text">Подробнее о горе</div>
+				<button class="about-button white-text">Подробнее о горе</button>
 			</div>
 			<div class="nlo"></div>
 			<div class="close"></div>
 		</div>
-			<nav class="navi">
-				<div class="menu-item">Горы</div>
-				<div class="menu-item">Равнины</div>
-				<div class="menu-item">Реки</div>
-				<div class="menu-item">Моря</div>
-				<div class="menu-item">Поля</div>
-				<div class="menu-item">Холмы</div>
-				<div class="menu-item">Вулканы</div>
-				<div class="menu-item">НЛО</div>
-				<div class="nlo2"></div>
-			</nav>
+		<nav class="navi">
+			<div class="menu-item">Горы</div>
+			<div class="menu-item">Равнины</div>
+			<div class="menu-item">Реки</div>
+			<div class="menu-item">Моря</div>
+			<div class="menu-item">Поля</div>
+			<div class="menu-item">Холмы</div>
+			<div class="menu-item">Вулканы</div>
+			<div class="menu-item">НЛО</div>
+			<div class="nlo2"></div>
+		</nav>
 		<div class="order">
-			<p class="order-title white-text">Заявка на скалолазанье</p>
+			<p class="order-title white-text">Заявка на скалолазание</p>
+			<form class="form" action="POST">
+				<div class="fio">
+					<label class="fio-label">
+						<span class="order-text">Имя:</span>
+						<input class="fio-text" type="text" name="name">
+					</label>
+					<label class="fio-label">
+						<span class="order-text">Фамилия:</span>
+						<input class="fio-text" type="text" name="name">
+					</label>
+					<label class="fio-label">
+						<span class="order-text">Цвет кожи:</span>
+						<input class="fio-text" type="text" name="name">
+					</label>
+				</div>
+				<div class="group"></div>
+				<div class="comment"></div>
+				<button name="submit"></button>
+			</form>
 		</div>
 	</div>
 </body>
