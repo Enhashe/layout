@@ -102,13 +102,13 @@ p.about {
 .form {
 
 }
-.fio {
+.fio, .group, .comment {
 	display: inline-block;
 	width: 33%;
+	vertical-align: top;
 }
 .fio-label {
 	display: block;
-	height: 2em;
 	text-align: right;
 	margin-bottom: 10px;
 }
@@ -117,10 +117,23 @@ p.about {
 	margin-left: 2%;
 	border-radius: 3px;
 	font-size: 1.5em;
+	background-color: #a7bdc6;
 }
 .group {
+	
+}
+.sex-label, .country-label, .comment-label{
+	width: 33%;
+	text-align: right;
+	margin-bottom: 10px;
+}
+.sex-label, .male, .female {
+	display: inline-block;
+}
+.country {
 
 }
+
 .comment {
 
 }
