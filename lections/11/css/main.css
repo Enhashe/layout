@@ -1,0 +1,12 @@
+.gs {
+	display: block;
+	height: 28px;
+	width: 30px;
+	background: url(../sprite.png) 0 0 no-repeat;
+}
+.gs:hover {
+	background-position-x: -31px;
+}
+i {
+	display: inline-block;
+}

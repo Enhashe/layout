@@ -1,0 +1,28 @@
+.mastercard, .sberbank, .visa, .webmoney{
+	background: url(sprites.png) no-repeat;
+}
+
+.mastercard{
+	background-position: 0 0;
+	width: 31px;
+	height: 20px;
+}
+
+.sberbank{
+	background-position: 0 -21px ;
+	width: 26px;
+	height: 26px;
+}
+
+.visa{
+	background-position: 0 -50px ;
+	width: 36px;
+	height: 11px;
+}
+
+.webmoney{
+	background-position: 0 -65px ;
+	width: 27px;
+	height: 27px;
+}
+

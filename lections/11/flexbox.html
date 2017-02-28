@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson 11 | flexbox</title>
+	<style>
+		html, body { margin: 0; }
+		h1 { text-align: center; }
+		.wrapper {
+			display: flex;
+			/*flex-direction: row;
+			flex-wrap: wrap;*/
+			flex-flow: row wrap;
+			justify-content: space-between; /*ВДОЛЬ ГЛАВНОЙ ОСИ*/
+			align-items: center;
+			margin: 40px;
+			height: 700px;
+			border: 1px solid red;
+		}
+		.box {
+			margin: 20px;
+			margin-top: 20px;
+			padding: 5px 10px;
+			border: 2px solid #000;
+			background-color: hotpink;
+			/*flex-basis: 300px;*/
+			/*width: 300px;*/
+		}
+		.box1 {
+
+		}
+		.box2 {
+			order: 2;
+		}
+		.box3 {
+			/*align-self: stretch;*/
+		}
+		.box4 {
+			order: 1;
+		}
+		.box5 {
+
+		}
+		.box6{
+
+		}
+	</style>
+</head>
+<body>
+	<h1><a href="http://frontender.info/a-guide-to-flexbox" target="_blank">РУКОВОДСТВО ПО FLEXBOX</a></h1>
+	<div class="wrapper">
+		<div class="flex1 box box1">1</div>
+		<div class="flex2 box box2">2</div>
+		<div class="flex3 box box3">3</div>
+		<div class="flex4 box box4">4</div>
+		<div class="flex5 box box5">5</div>
+		<div class="flex6 box box6">6</div>
+	</div>
+</body>
+</html>
+
+
+<!-- float clear vertial-align columns: не работают
+margin складываются
+flex-directiion
+flex-wrap: wrap-reverse
+flex-flow: direction wrap
+flex-basis: auto
+flex-grow: от 0 до бесконечности // свободное пространство делится = часть + flex-grow
+flex-shrink: 1
+align-self
+order -->

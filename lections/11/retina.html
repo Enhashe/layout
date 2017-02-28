@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson 11 | Retina</title>
+	<style>
+		.logo-link {
+			display: inline-block;
+			width: 183px;
+			height: 100px;
+			background: url('images/logo.png') 0 0 no-repeat;
+		}
+		@media screen and (min-resolution: 144dpi) and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
+			.logo-link {
+				background: url('images/logo@2x.png') 0 0 no-repeat;
+				background-size: 183px 100px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<a href="#!" class="logo-link"></a>
+	
+	<img src="images/logo.png" srcset="images/logo@2x.png 2x" alt="creative studio" class="logo">
+</body>
+</html>
