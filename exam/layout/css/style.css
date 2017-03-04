@@ -86,7 +86,6 @@ body {
 }
 .info-item {
 	width: 30%;
-	/*flex-grow: 30;*/
 	margin: 2.5% 0;
 }
 .item-header{
@@ -134,7 +133,6 @@ body {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	/*align-items: stretch; */
 }
 .portfolio-item {
 	position: relative;
@@ -178,7 +176,7 @@ body {
 	width: 26%;
 	padding: 19px 0;
 	padding-left: 35px;
-	/*align-items: stretch;*/
+
 }
 .social-items {
 
@@ -189,9 +187,24 @@ body {
 	padding-right: 14px;
 }
 .footer {
+	display: 
 	height: 100px;
 	width: 100%;
 	background-color:  #e2e2e2;
+}
+.footer-content {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-menu *{
+	font-size: 14px;
+	color: #5d5d5d;
+	text-decoration: none;
+}
+.footer-item {
+
 }
 .footer-logo {
 	
