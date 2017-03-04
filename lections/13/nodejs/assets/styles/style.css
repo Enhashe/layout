@@ -1,0 +1,37 @@
+.rect {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+.logo {
+  height: 180px;
+  width: 540px;
+  background: url('../img/logo-less.jpg') 0 0 no-repeat;
+}
+.rect2 {
+  height: 100px;
+  width: 100px;
+  background-color: #004080;
+}
+.list {
+  padding: 0;
+}
+.list .list-item {
+  color: blue;
+}
+.btn {
+  height: 30px;
+  width: 100px;
+  border: 3px solid #ccc;
+  box-shadow: 0 0 10px #4d4d4d;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.btn-alert {
+  background-color: #801500;
+}
+.btn-ok {
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

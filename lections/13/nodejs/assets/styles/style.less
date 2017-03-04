@@ -1,0 +1,41 @@
+@bg-color: #ccc;
+@logo-path: '../img/logo-less.jpg';
+@bg-color: green;
+// @imgpath: '../img'
+.rect {
+	height: 100px;
+	width: 100px;
+	background-color: @bg-color;
+}
+
+.logo {
+	height: 180px;
+	width: 540px;
+	background: url(@logo-path) 0 0 no-repeat;
+}
+
+.rect2 {
+	height: 100px;
+	width: 100px;
+	background-color: spin(@bg-color, 90);
+}
+.list {
+	padding: 0;
+	.list-item {
+		color: blue;
+	}
+}
+.btn {
+	height: 30px;
+	width: 100px;
+	border: 3px solid #ccc;
+	box-shadow: 0 0 10px darken(#ccc, 50%);
+	border-radius: 3px;
+	font-weight: bold;
+	&-alert {
+		background-color: spin(green, 250);
+	}
+	&-ok {
+		background-color: green;
+	}
+}
